@@ -7,7 +7,8 @@
 		<ul>
 			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
 			<li class:active={$page.path === '/ex01'}><a sveltekit:prefetch href="/01-a-formal-greeting">ex01</a></li>
-			<li class:active={$page.path === '/ex02'}><a sveltekit:prefetch href="/02-shopping-list">ex02</a></li>
+      <li class:active={$page.path === '/ex02'}><a sveltekit:prefetch href="/02-shopping-list">ex02</a></li>
+      <li class:active={$page.path === '/pokeDex'}><a sveltekit:prefetch href="/pokeDex">pokeDex</a></li>
 		</ul>
 	</nav>
 
